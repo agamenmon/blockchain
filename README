@@ -1,0 +1,12 @@
+INSTALL OPENSSL 
+1. Download source openssl from page.
+     https://www.openssl.org/source/
+2. Extract and go into the folder
+3. Type "./config" -> "make" -> "make test"
+4. Type "sudo make install" after "make test" passed
+5. After install, we can "make clean"
+
+BUILD FILE 
+1. Type in the terminal
+  gcc C-language.c -o blockchain.o -lcrypto
+2. Type "./blockchain.o" to run the program.
